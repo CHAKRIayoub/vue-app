@@ -14,7 +14,7 @@
         </v-layout>
         <v-layout>
             <v-flex xs12>
-              <v-data-table
+              <!--<v-data-table
                 :headers="headers"
                 :items="items"
                 hide-actions
@@ -28,7 +28,21 @@
                   <td class="text-xs-right">{{ props.item.role }}</td>
                   <td class="text-xs-right">{{ props.item.sexe }}</td>
                 </template>
-              </v-data-table>
+              </v-data-table>-->
+                <v-card>
+                  <v-card-media src="@/assets/1.png" height="200px" ></v-card-media>
+                  <v-card-title primary-title>
+                    <div>
+                      <h3 class="headline mb-0">hhhhhhhhh</h3>
+                      <div>bbbbbbbbb</div>
+                    </div>
+                  </v-card-title>
+                  <v-card-actions>
+                    <v-btn flat color="orange">Share</v-btn>
+                    <v-btn flat color="orange">Explore</v-btn>
+                  </v-card-actions>
+                </v-card>
+
             </v-flex>
         </v-layout>
     </v-container>
@@ -117,9 +131,9 @@
             }
           ],
           users: [
-            {img: '@/assets/1.png', id: '1', title: 'ayoub chakri', desc: 'jjjj jjjj jjjjj jjjj jjjj'},
-            {img: '@/assets/2.png', id: '2', title: 'youssef chakri', desc: 'jjjj jjjj jjjjj jjjj jjjj'},
-            {img: '@/assets/3.png', id: '3', title: 'othman chakri', desc: 'jjjj jjjj jjjjj jjjj jjjj'}
+            {img: '@/assets/1.png', id: '1', name: 'ayoub chakri', desc: 'jjjj jj jjjjjjjjjjjj jjjj jjjj'},
+            {img: '@/assets/2.png', id: '2', name: 'youssef chakri', desc: 'aaaa a aaaa aaaaaa aaaaaaaaaaaa'},
+            {img: '@/assets/3.png', id: '3', name: 'othman bouarda', desc: 'ffff f fffffffff hhhhhh llllll'}
           ]
         }
       }
