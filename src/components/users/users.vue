@@ -1,3 +1,4 @@
 <template>
-    <h1> list of users Page </h1>
+    <h1> Votre sujet : .....
+        Date de Soutenance </h1>
 </template>

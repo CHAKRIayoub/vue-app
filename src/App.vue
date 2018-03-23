@@ -4,7 +4,7 @@
   <v-app>
     <v-toolbar dark class="blue darken-1" >
       <v-toolbar-side-icon @click.native.stop="sidenav = !sidenav" class="hidden-sm-and-up"></v-toolbar-side-icon>
-      <v-toolbar-title> CRUD App </v-toolbar-title>
+      <v-toolbar-title> PFEs </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
 
@@ -45,11 +45,10 @@ export default {
     return {
       sidenav: false,
       menuItems: [
-        {icon: 'home', title: 'Home', link: '/'},
-        {icon: 'person', title: 'Profile', link: '/profile'},
-        {icon: 'supervisor_account', title: 'Users', link: '/users'},
-        {icon: 'face', title: 'login', link: '/login'},
-        {icon: 'lock_open', title: 'register', link: '/register'}
+        {icon: 'home', title: 'Sujets', link: '/'},
+        {icon: 'person', title: 'Encadrants', link: '/profile'},
+        {icon: 'supervisor_account', title: 'Resultat', link: '/users'},
+        {icon: 'face', title: 'Suivi de sujet', link: '/login'}
       ]
     }
   }
